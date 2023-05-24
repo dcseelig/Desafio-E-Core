@@ -4,9 +4,9 @@ describe('template spec', () => {
 	const userNameIpt	= 'body input[name="username"]'
 	const passwordIpt	= 'body input[name="password"]'
 	const loginBtn		= 'body button[id="btnLogin"][type="submit"]'
-	const invoiceDetail = 'a[href="/invoice/0"]'
+	const invoiceDetail	= 'a[href="/invoice/0"]'
 	const bookingStay	= 'tbody:eq(0) tr'
-	const billingDetail = 'tbody:eq(1)'
+	const billingDetail	= 'tbody:eq(1)'
   	
 	//DATA for TC001
 	const userNameText	= 'demouser'
@@ -17,20 +17,20 @@ describe('template spec', () => {
 	const passwordTextFail	= ['abc123','xyz','nananana','abc123']	
 	
 	//DATA for TC003
-	const HotelName ='Rendezvous Hotel'
-	const InvoiceNumber ='110'
-	const InvoiceDate ='14/01/2018'
-	const DueDate ='15/01/2018'
-	const BookingCode ='0875'
-	const Room ='Superior Double'
-	const TotalStayCount ='1'
-	const TotalStayAmount ='$150'
-	const CheckIn ='14/01/2018'
-	const CheckOut ='15/01/2018'
-	const CustomerDetails =['JOHNY SMITH','R2, AVENUE DU MAROC','123456']
-	const DepositNow ='USD $20.90'
-	const TaxVAT ='USD $19'
-	const TotalAmount ='USD $209'
+	const HotelName			='Rendezvous Hotel'
+	const InvoiceNumber		='110'
+	const InvoiceDate		='14/01/2018'
+	const DueDate			='15/01/2018'
+	const BookingCode		='0875'
+	const Room				='Superior Double'
+	const TotalStayCount	='1'
+	const TotalStayAmount	='$150'
+	const CheckIn			='14/01/2018'
+	const CheckOut			='15/01/2018'
+	const CustomerDetails	=['JOHNY SMITH','R2, AVENUE DU MAROC','123456']
+	const DepositNow		='USD $20.90'
+	const TaxVAT			='USD $19'
+	const TotalAmount		='USD $209'
 	
 	//Reusable function
 	function login(userName, password){
